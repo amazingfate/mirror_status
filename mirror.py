@@ -1,3 +1,6 @@
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 import json
 with open('mirrors', 'r') as f:
     mirrors = json.load(f)
