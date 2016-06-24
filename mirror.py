@@ -25,8 +25,8 @@ json_other = {
         "data":data_other
         }
 
-with open('mirror_cn', 'w') as f:
-    json.dump(json_cn, f)
+with open('mirror_cn.json', 'w') as f:
+    json.dump(data_cn, f)
 
-with open('mirror_other', 'w') as f:
-    json.dump(json_other, f)
+with open('mirror_other.json', 'w') as f:
+    json.dump(data_other, f)
